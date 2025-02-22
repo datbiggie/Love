@@ -21,13 +21,13 @@ section {
 p {
     position: relative; /* Mantén esto para el párrafo */
     z-index: 1; /* Asegúrate de que el párrafo esté detrás del reproductor */
-    font-size: .20rem;
-    letter-spacing: 0.015em;
-    line-height: 0.8em;
+    font-size: .25vw; /* Cambiado a vw para mayor responsividad */
+    letter-spacing: 0.1vw; /* Ajustado a vw */
+    line-height: 1.2em; /* Ajustado para mejor legibilidad */
     background-image: url(valen.jpeg);
     background-blend-mode: color-dodge;
     background-position: center;
-    background-attachment: cover;
+    background-attachment: fixed; /* Cambiado a fixed para un mejor efecto */
     background-size: cover;
     -webkit-background-clip: text;
     background-clip: text;
