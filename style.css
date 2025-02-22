@@ -21,10 +21,10 @@ section {
 p {
     position: relative; /* Mantén esto para el párrafo */
     z-index: 1; /* Asegúrate de que el párrafo esté detrás del reproductor */
-    font-size: .2rem;
+    font-size: .30rem;
     letter-spacing: 0.1em;
-    line-height: 0.65em;
-    background-image: url(yai.jpeg);
+    line-height: 0.50em;
+    background-image: url(valen.jpeg);
     background-blend-mode: color-dodge;
     background-position: center;
     background-attachment: cover;
@@ -32,6 +32,8 @@ p {
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
+    width: 110%;
+    height: 50%;
 }
 
 .player{
