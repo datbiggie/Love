@@ -21,7 +21,7 @@ section {
 p {
     position: relative; /* Mantén esto para el párrafo */
     z-index: 1; /* Asegúrate de que el párrafo esté detrás del reproductor */
-    font-size: .25rem;
+    font-size: .20rem;
     letter-spacing: 0.015em;
     line-height: 0.8em;
     background-image: url(valen.jpeg);
@@ -108,7 +108,7 @@ body{
 .music-player-container {
     background: linear-gradient(30deg, rgba(202, 144, 224, 0.2), rgba(74, 35, 90, .2));
     backdrop-filter: blur(10px);
-    height: 21%;
+    height: 25%;
     width: 40vw;
     border-radius: 10px;
     padding: 2rem 0;
