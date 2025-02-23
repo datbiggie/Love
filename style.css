@@ -24,7 +24,7 @@ p {
     font-size: .25vw; /* Cambiado a vw para mayor responsividad */
     letter-spacing: 0.1vw; /* Ajustado a vw */
     line-height: 1.2em; /* Ajustado para mejor legibilidad */
-    background-image: url(valen.jpeg);
+    background-image: url(valen.jpeg),  url(valen.jpeg);
     background-blend-mode: color-dodge;
     background-position: center;
     background-attachment: fixed; /* Cambiado a fixed para un mejor efecto */
